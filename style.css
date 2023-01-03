@@ -1,0 +1,324 @@
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+body{
+    background-color:white;
+    margin: 0%;
+    display:block;
+}
+
+
+
+
+#navbar{
+    display: flex;
+    width:auto;
+    height: 50px;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:relative;   
+
+}
+
+#logo{
+    width: 200px;
+    border: none;
+    background-image: url(images/Screenshot\ 2023-01-02\ 154137.png);
+    background-position: center;
+    background-size: 280px;
+    
+    
+    
+}
+
+#rightnav{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+   
+}
+/* Track order */
+.to{
+    height: 30px;
+    margin: 0%;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    background-color: blueviolet;
+    font-size:auto;
+    text-align: center;
+    color:white;
+    border: 0px;
+}
+/* cusotmer care */
+#cc{
+    
+    background-image: url(images/support.gif);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: 40px;
+    margin:5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-color:whitesmoke;
+    border: 0px;
+    
+   
+    
+}
+
+#guide{
+    
+    background-image: url(images/lighthouse.gif);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: 40px;
+    margin:5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-color: whitesmoke;
+    border: 0px;
+
+    
+}
+#profile{
+    
+    background-image: url(images/profile.gif);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: 40px;
+    margin:5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-color: whitesmoke;
+    border: 0px;
+
+}
+#scrollbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/Screenshot\ 2023-01-03\ 123035.png);
+    width: auto;
+    min-height: 1000px;
+    background-position: center;
+    background-size:cover;
+    border-color: brown;
+    
+}
+#scrollbutton{
+    
+   
+    margin-bottom: 0%;
+    margin-left:45.5% ;
+    margin-right: 50%;
+    width: 100px;
+    height: 82px;
+    background-image: url(https://codemyui.com/wp-content/uploads/2015/05/scroll-icon-animation.gif);
+    background-size: 280px;
+    background-position:48%;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 798px;
+    border: none;
+  
+}
+
+
+/* button styling */
+.but{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border:none;
+    }
+
+
+
+/* local deliveries */
+
+#ld{
+    background-color: cornflowerblue;
+    height: 400px;
+    width: auto;
+}
+/* local deliveries button section or div */
+#ldb{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#ldb1{
+background-image: url(images/truck.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+
+#ldb2{
+background-image: url(images/motorcycle.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+#ldb3{
+background-image: url(images/truck.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+#ldb4{
+background-image: url(images/supercar.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+
+
+
+/* india wide deliveries */
+
+#iwd{
+
+background-color:rgb(110, 122, 226);
+height: 400px;
+width: auto;
+
+
+}
+/* india wide deliveries button section or div */
+#iwdb{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+
+
+}
+
+#iwdb1{
+background-image: url(images/midnight.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+
+#iwdb2{
+background-image: url(images/beagle.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+#iwdb3{
+background-image: url(images/snowflake.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+#iwdb4{
+background-image: url(images/pickup-truck.gif);
+background-position: center;
+background-size: 100px;
+font-size: medium;
+text-align: center;
+text-justify: bottom;
+
+
+}
+
+
+
+
+
+
+#id{
+
+    background-color:rgb(140, 73, 221);
+    height: 400px;
+    width: auto;
+}
+
+
+
+#idb{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+    }
+    
+    #idb1{
+    background-image: url(images/maximize.gif);
+    background-position: center;
+    background-size: 100px;
+    font-size: medium;
+    text-align: center;
+    text-justify: bottom;
+    
+    
+    }
+    
+    #idb2{
+    background-image: url(images/minimize.gif);
+    background-position: center;
+    background-size: 100px;
+    font-size: medium;
+    text-align: center;
+    text-justify: bottom;
+    
+    
+    }
+    #idb3{
+    background-image: url(https://media4.giphy.com/media/MaV9vHq75mfU59aP9e/200w.gif?cid=6c09b9528xuok43wrl2gxf0ow31wybjssq6lvaz9s5vedyln&rid=200w.gif&ct=g);
+    background-position: center;
+    background-size: 100px;
+    font-size: medium;
+    text-align: center;
+    text-justify: bottom;
+    
+    
+    }
+    
